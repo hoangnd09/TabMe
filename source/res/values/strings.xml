@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For all screen -->
+    <string name="app_name">Tab Me</string>
+    <string name="app_slogan">NFC Inovation</string>
+    <string name="empty"></string>
+
+    <!-- For Welcome Screen -->
+    <string name="welcome_user_title">Welcome Users</string>
+    <string name="welcome_user_label_personal_utilities">Personal Utilities</string>
+    <string name="welcome_user_label_shopping">Shopping</string>
+    <string name="welcome_user_label_loyalty">Loyalty</string>
+    <string name="welcome_user_label_game">Game</string>
+
+    <!-- For Personal Ultility -->
+    <string name="personal_utilities_title">Welcome Users</string>
+    <string name="personal_utilities_breadcum">Personal Utilities</string>
+    <string name="personal_utilities_app_bizcards">Biz Cards</string>
+
+    <!-- For User Authentication -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- For NFC Utilities -->
+
+
+    <!-- To Be Removed -->
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_biz_cards">MyBizCardsActivity</string>
+
+</resources>

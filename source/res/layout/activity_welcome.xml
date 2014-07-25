@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/tabMeRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/headerBar"
+        style="@style/tabMeHeaderBar"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/tabMeHeaderText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="@string/welcome_user_title" />
+
+        <ImageView
+            style="@style/tabMeBigMenuImage"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/empty"
+            android:src="@android:drawable/sym_action_chat" />
+
+        <ImageView
+            style="@style/tabMeBigMenuImage"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/empty"
+            android:src="@drawable/ic_menu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pageContent"
+        style="@style/tabMeContentWrapper"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linkToPersonalUltilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10sp"
+            android:clickable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                style="@style/tabMeBigMenuImage"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/smile" />
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/tabMeText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:text="@string/welcome_user_label_personal_utilities" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10sp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                style="@style/tabMeBigMenuImage"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/ic_search" />
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/tabMeText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:text="@string/welcome_user_label_shopping" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10sp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                style="@style/tabMeBigMenuImage"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/ic_menu_cc_am" />
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/tabMeText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:text="@string/welcome_user_label_loyalty" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10sp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                style="@style/tabMeBigMenuImage"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/ic_menu_play_clip" />
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/tabMeText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:text="@string/welcome_user_label_game" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

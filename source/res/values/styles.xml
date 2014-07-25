@@ -1,0 +1,79 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    
+    <style name="tabMeRootLayout">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    
+    <style name="tabMeHeaderBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50sp</item>
+    </style>
+    <style name="breadcumBar">
+        <item name="android:background">@drawable/breadcum</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="tabMeContentWrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="tabMeText">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#242121</item>
+    </style>
+    <style name="tabMeHeaderText" parent="tabMeText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#858585</item>
+        <item name="android:textStyle">bold|italic</item>
+	</style>
+	
+    <style name="tabMeHeading" parent="tabMeText">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#858585</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="tabMeSlogan" parent="tabMeText">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#0b84aa</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    
+	<style name="tabMeBigMenuImage">
+	    <item name="android:layout_width">40sp</item>
+	    <item name="android:layout_height">40sp</item>
+	</style>
+	<style name="bizCardImageCardDetail">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+	
+    <style name="gradientButton">
+        <item name="android:background">@drawable/btn_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+	
+</resources>

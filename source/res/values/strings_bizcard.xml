@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For BizCard -->
+    <string name="bizcards_title">Welcome Users</string>
+    <string name="bizcards_breadcum">Personal Utilities/Biz Card</string>
+    <string name="bizcards_category_mybizcards">My Biz Cards</string>
+    <string name="bizcards_category_mycontacts">My Contacts</string>
+    
+    <string name="bizcards_breadcum_my_cards">Personal Utilities/Biz Card/My Biz Cards</string>
+</resources>
+
