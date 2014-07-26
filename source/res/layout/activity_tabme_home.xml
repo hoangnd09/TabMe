@@ -4,37 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:id="@+id/headerBar"
-        style="@style/tabMeHeaderBar"
-        android:orientation="horizontal" >
-
-        <TextView
-            style="@style/tabMeHeaderText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:clickable="true"
-            android:text="@string/welcome_user_title" />
-
-        <ImageView
-            style="@style/tabMeBigMenuImage"
-            android:layout_gravity="center_vertical"
-            android:contentDescription="@string/empty"
-            android:src="@android:drawable/sym_action_chat" />
-
-        <ImageView
-            style="@style/tabMeBigMenuImage"
-            android:layout_gravity="center_vertical"
-            android:contentDescription="@string/empty"
-            android:src="@drawable/ic_menu" />
-    </LinearLayout>
+    <include layout="@layout/pannel_tabme_actionbar" />
 
     <LinearLayout
         android:id="@+id/pageContent"
         style="@style/tabMeContentWrapper"
         android:orientation="vertical" >
+
+        <!-- Personal Ultility -->
 
         <LinearLayout
             android:id="@+id/linkToPersonalUltilities"
@@ -68,6 +45,8 @@
             </LinearLayout>
         </LinearLayout>
 
+        <!-- Shopping -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,6 +77,8 @@
             </LinearLayout>
         </LinearLayout>
 
+        <!-- Loyalty -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -127,6 +108,8 @@
                     android:text="@string/welcome_user_label_loyalty" />
             </LinearLayout>
         </LinearLayout>
+
+        <!-- Game -->
 
         <LinearLayout
             android:layout_width="match_parent"

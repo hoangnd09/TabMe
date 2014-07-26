@@ -30,13 +30,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.nfc.inovation.tab.me.R;
+import com.nfc.inovation.tab.me.TabMeGeneralActivity;
 import com.nfc.inovation.tab.me.util.TabMeConstant;
 import com.nfc.inovation.tab.me.util.TabMeUtil;
 
 /**
  * A login screen that offers login via email/password.
  */
-public class TabMeLoginActivity extends TabMeActivity implements
+public class TabMeLoginActivity extends TabMeGeneralActivity implements
 		LoaderCallbacks<Cursor> {
 
 	/**
@@ -53,7 +54,7 @@ public class TabMeLoginActivity extends TabMeActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_tab_me_login);
+		setContentView(R.layout.activity_tabme_login);
 
 		// Set up the login form.
 		mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
@@ -248,7 +249,7 @@ public class TabMeLoginActivity extends TabMeActivity implements
 		protected List<String> doInBackground(Void... voids) {
 			ArrayList<String> emailAddressCollection = new ArrayList<String>();
 
-			// Get all emails from the user's contacts and copy them to a list.
+			// Get all email from the user's contacts and copy them to a list.
 			ContentResolver cr = getContentResolver();
 			Cursor emailCur = cr.query(
 					ContactsContract.CommonDataKinds.Email.CONTENT_URI, null,

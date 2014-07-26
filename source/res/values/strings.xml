@@ -4,6 +4,7 @@
     <!-- For all screen -->
     <string name="app_name">Tab Me</string>
     <string name="app_slogan">NFC Inovation</string>
+	<string name="menuItemLogOut">Log Out</string>
     <string name="empty"></string>
 
     <!-- For Welcome Screen -->

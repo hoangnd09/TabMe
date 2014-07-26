@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.nfc.inovation.tab.me.R;
-import com.nfc.inovation.tab.me.WelcomeActivity;
-import com.nfc.inovation.tab.me.authenticate.TabMeAuthorizedActivity;
+import com.nfc.inovation.tab.me.TabMeAuthorizedActivity;
+import com.nfc.inovation.tab.me.TabMeHomeActivity;
 
 public class BizCardsCategoryActivity extends TabMeAuthorizedActivity {
 
@@ -17,7 +17,7 @@ public class BizCardsCategoryActivity extends TabMeAuthorizedActivity {
 	}
 	
 	public void onBackButtonClick(View view) {
-		Intent intentPersonalUltilities = new Intent(getApplicationContext(), WelcomeActivity.class);
+		Intent intentPersonalUltilities = new Intent(getApplicationContext(), TabMeHomeActivity.class);
         startActivity(intentPersonalUltilities);
 	}
 	

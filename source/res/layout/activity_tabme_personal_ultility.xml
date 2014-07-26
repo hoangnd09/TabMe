@@ -4,40 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-	    <LinearLayout
-	        android:id="@+id/headerBar"
-	        style="@style/tabMeHeaderBar"
-	        android:orientation="horizontal" >
-	
-	        <ImageView
-	            style="@style/tabMeBigMenuImage"
-	            android:layout_gravity="center_vertical"
-	            android:clickable="true"
-	            android:contentDescription="@string/empty"
-	            android:onClick="onBackButtonClick"
-	            android:src="@drawable/ic_back" />
-	
-	        <TextView
-	            style="@style/tabMeHeaderText"
-	            android:layout_width="0dp"
-	            android:layout_height="wrap_content"
-	            android:layout_gravity="center"
-	            android:layout_weight="1"
-	            android:clickable="true"
-	            android:text="@string/personal_utilities_title" />
-	
-	        <ImageView
-	            style="@style/tabMeBigMenuImage"
-	            android:layout_gravity="center_vertical"
-	            android:contentDescription="@string/empty"
-	            android:src="@android:drawable/sym_action_chat" />
-	
-	        <ImageView
-	            style="@style/tabMeBigMenuImage"
-	            android:layout_gravity="center_vertical"
-	            android:contentDescription="@string/empty"
-	            android:src="@drawable/ic_menu" />
-	    </LinearLayout>
+    <include layout="@layout/pannel_tabme_actionbar" />
 
     <LinearLayout
         android:id="@+id/pageContent"
