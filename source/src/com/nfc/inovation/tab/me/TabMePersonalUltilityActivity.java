@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.nfc.inovation.tab.me.R;
-import com.nfc.inovation.tab.me.bizcard.BizCardsCategoryActivity;
+import com.nfc.inovation.tab.me.bizcard.activity.BizCardsCategoryActivity;
 
 public class TabMePersonalUltilityActivity extends TabMeAuthorizedActivity {
 

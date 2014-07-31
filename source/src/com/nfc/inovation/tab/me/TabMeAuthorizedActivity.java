@@ -7,7 +7,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.nfc.inovation.tab.me.R;
-import com.nfc.inovation.tab.me.authenticate.TabMeLoginActivity;
+import com.nfc.inovation.tab.me.authenticate.activity.TabMeLoginActivity;
 import com.nfc.inovation.tab.me.util.TabMeConstant;
 
 public abstract class TabMeAuthorizedActivity extends TabMeGeneralActivity {

@@ -3,10 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-    <ImageView
+
+    <!--
+         <ImageView
         android:id="@+id/itemFrontImage"
         android:contentDescription="@string/empty"
+        android:src="@drawable/bizcardnoimage"
         style="@style/bizCardImageCardDetail" />
+    -->
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/itemFrontImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/empty"/>
 
 </LinearLayout>

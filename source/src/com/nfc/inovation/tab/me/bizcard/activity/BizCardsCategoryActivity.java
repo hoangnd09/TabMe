@@ -1,4 +1,4 @@
-package com.nfc.inovation.tab.me.bizcard;
+package com.nfc.inovation.tab.me.bizcard.activity;
 
 import android.content.Intent;
 import android.os.Bundle;

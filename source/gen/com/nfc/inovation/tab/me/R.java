@@ -1072,19 +1072,20 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int breadcum=0x7f020057;
-        public static final int btn_gray=0x7f020058;
-        public static final int ic_back=0x7f020059;
-        public static final int ic_bizcard=0x7f02005a;
-        public static final int ic_bizcards_my_cards=0x7f02005b;
-        public static final int ic_bizcards_my_contacts=0x7f02005c;
-        public static final int ic_launcher=0x7f02005d;
-        public static final int ic_menu=0x7f02005e;
-        public static final int ic_menu_cc_am=0x7f02005f;
-        public static final int ic_menu_play_clip=0x7f020060;
-        public static final int ic_search=0x7f020061;
-        public static final int profile_no_images=0x7f020062;
-        public static final int smile=0x7f020063;
+        public static final int bizcardnoimage=0x7f020057;
+        public static final int breadcum=0x7f020058;
+        public static final int btn_gray=0x7f020059;
+        public static final int ic_back=0x7f02005a;
+        public static final int ic_bizcard=0x7f02005b;
+        public static final int ic_bizcards_my_cards=0x7f02005c;
+        public static final int ic_bizcards_my_contacts=0x7f02005d;
+        public static final int ic_launcher=0x7f02005e;
+        public static final int ic_menu=0x7f02005f;
+        public static final int ic_menu_cc_am=0x7f020060;
+        public static final int ic_menu_play_clip=0x7f020061;
+        public static final int ic_search=0x7f020062;
+        public static final int profile_no_images=0x7f020063;
+        public static final int smile=0x7f020064;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
